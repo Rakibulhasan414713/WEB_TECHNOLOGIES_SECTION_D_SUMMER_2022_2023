@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Table Example</title>
+</head>
+<body>
+	<table border="1" width="50%" align="center">
+		<tr align="center">
+			<td  colspan="3" width="100px" align="Left">
+				<img src="schoollogo1.PNG">
+			
+			<p align="Right">
+				<a href="home.html"> Home</a> | 			
+				<a href="registration.html"> Registration</a> | 			
+				<a href="login.html" >Login</a> | 			
+			</p> 			
+			</td>
+		</tr>
+		<tr align="left" height="300px">
+			<td>
+				<h2><li><a href="Accountsettings.html">Account Settings</a></li></h2>
+				<h3><li><a href="Studentrecord.html">Student Records</a></li></h3>
+				<h4><li><a href="employeerecord.html">Employee Records</a></li></h4>
+				<h5><li><a href="staffrecord.html">Staff Records</a></li></h5>
+				<h6><li><a href="event.html">Event Management</a></li></h6>
+				<li><a href="logout.html"> Logout </a></li>
+			</td>
+			<td colspan="2">
+				<h1>Welcome , <?php $_SESSION['username'] = "Rakib"; echo $_SESSION['username'];	?> </h1>
+					                                       
+			</td>
+			
+		</tr>
+	
+		<tr align="center" >
+			<td colspan="3" height="50px">
+				Copyright,Md.RakibulHasan@2023
+			</td>
+		</tr>
+	</table>
+</body>
+</html>
